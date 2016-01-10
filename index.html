@@ -1,0 +1,33 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <div>
+<div class="box" > <input name="one" type="text" onkeydown="CursorKeyDown(event,undefined,undefined,'six','two')"> </div>
+<div class="box"><input name="two" type="text" onkeydown="CursorKeyDown(event,undefined,'one','seven','three')"></div>
+<div class="box"><input name="three" type="text" onkeydown="CursorKeyDown(event,undefined,'two','eight','four')"></div>
+<div class="box"><input name="four" type="text" onkeydown="CursorKeyDown(event,undefined,'three','nine','five')"></div>
+<div class="box"><input name="five" type="text" onkeydown="CursorKeyDown(event,undefined,'four','ten',undefined)"></div>
+</div>
+<br>
+<br>
+<div>
+<div class="box" ><input name="six" type="text" onkeydown="CursorKeyDown(event,'one',undefined,'eleven','seven')"></div>
+<div class="box" ><input name="seven" type="text" onkeydown="CursorKeyDown(event,'two','six','twelve','eight')"></div>
+<div class="box" ><input name="eight" type="text" onkeydown="CursorKeyDown(event,'three','seven','thirteen','nine')"></div>
+<div class="box" ><input name="nine" type="text" onkeydown="CursorKeyDown(event,'four','eight','fourteen','ten')"></div>
+<div class="box" ><input name="ten" type="text" onkeydown="CursorKeyDown(event,'five','nine','fifteen',undefined)"></div>
+</div>
+<br>
+<br>
+<div>
+<div class="box" ><input name="eleven" type="text" onkeydown="CursorKeyDown(event,'six',undefined,undefined,'twelve')"></div>
+<div class="box" ><input name="twelve" type="text" onkeydown="CursorKeyDown(event,'seven','eleven',undefined,'thirteen')"></div>
+<div class="box" ><input name="thirteen" type="text" onkeydown="CursorKeyDown(event,'eight','twelve',undefined,'fourteen')"></div>
+<div class="box" ><input name="fourteen" type="text" onkeydown="CursorKeyDown(event,'nine','thirteen',undefined,'fifteen')"></div>
+<div class="box" ><input name="fifteen" type="text" onkeydown="CursorKeyDown(event,'ten','fourteen',undefined,undefined)"></div>
+</div>
+<script type="text/javascript" src="my.js"></script>
+</body>
+</html>
